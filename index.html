@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>FishGoo spreadsheet – Kategorien, QC-Fotos und Versand</title>
+<meta name="description" content="FishGoo spreadsheet auf Deutsch: Zehn Produktkategorien bei HipoBuyFind sowie Tipps zu Produktlinks, Größen, QC-Fotos und Versand nach Deutschland.">
+<meta name="theme-color" content="#211c2c">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FishGoo spreadsheet – Kategorien, QC-Fotos und Versand">
+<meta property="og:description" content="Deutschsprachiger Einkaufsratgeber für Produktlinks, Größen, QC-Fotos und Versand nach Deutschland.">
+<meta property="og:locale" content="de_DE">
+<link rel="preconnect" href="https://static.nike.com">
+<style>
+:root{color-scheme:light;--ink:#211c2c;--muted:#524a5c;--paper:#f8f5ef;--line:#d8cfdd;--accent:#e5d5fc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+h1,h2,h3,p,figure{margin:0}
+h1,h2,h3{line-height:1.12;text-wrap:balance}
+h1{font-size:clamp(2.65rem,7vw,5.7rem);letter-spacing:-.065em}
+h2{font-size:clamp(1.65rem,4vw,2.5rem);letter-spacing:-.035em}
+h3{font-size:1.25rem;margin-bottom:.7rem}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid #9a52e0;outline-offset:3px}
+.wrap{width:min(100% - 2rem,72rem);margin-inline:auto}
+.bar{padding-block:.8rem;border-bottom:1px solid #594e65}
+.bar a{font-weight:750;text-underline-offset:.25em}
+header{background:var(--ink);color:var(--paper)}
+.hero{display:grid;grid-template-columns:1.35fr 1fr;align-items:center;gap:clamp(1.2rem,4vw,4rem);padding-block:clamp(1.5rem,5vw,4rem)}
+.hero p{max-width:49ch;margin-top:1rem;color:#e4dae8}
+.hero figure{background:#ede7ef;color:var(--ink);overflow:hidden;border-radius:1.4rem .2rem 1.4rem .2rem}
+.hero img{width:100%;height:auto;display:block;aspect-ratio:4/3;object-fit:contain;background:#f6f6f6}
+figcaption{font-size:.85rem;padding:.5rem .8rem}
+section{margin-block:clamp(2rem,5vw,4rem)}
+section>h2+*{margin-top:1.1rem}
+.grid{display:grid;gap:.65rem;padding:0;list-style:none}
+.categories{grid-template-columns:repeat(auto-fit,minmax(9.2rem,1fr))}
+.categories a{display:flex;align-items:center;justify-content:space-between;gap:.4rem;height:100%;min-height:3.25rem;padding:.55rem .7rem;border:1px solid var(--line);border-radius:.35rem;background:#fff;text-decoration:none;font-weight:650}
+.categories a:hover,.cta:hover{background:var(--accent)}
+.categories a span{color:#583487}
+.gallery,.articles{grid-template-columns:repeat(3,minmax(0,1fr))}
+.gallery figure,article{border:1px solid var(--line);background:#fff;border-radius:.65rem;overflow:hidden}
+.gallery img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#faf9f7}
+.note{margin-top:.65rem;color:var(--muted);font-size:.9rem}
+article{padding:1rem}
+article p+p{margin-top:.65rem}
+details{border-bottom:1px solid var(--line);padding:.75rem .2rem}
+details p{padding:.5rem 0 .1rem;max-width:72ch}
+summary{cursor:pointer;font-weight:700}
+.cta{display:inline-block;margin-top:1rem;padding:.65rem .95rem;background:#fff;color:var(--ink);font-weight:700;border-radius:.35rem;text-underline-offset:.2em}
+footer{padding-block:1.2rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+@media(max-width:42rem){.hero,.articles{grid-template-columns:1fr}.hero figure{max-width:28rem}.gallery{grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr))}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "name":"FishGoo spreadsheet – Kategorien, QC-Fotos und Versand",
+  "description":"Deutschsprachiger Einkaufsratgeber für Produktlinks, Größen, QC-Fotos und Versand nach Deutschland.",
+  "inLanguage":"de",
+  "mainEntity":[
+    {"@type":"Question","name":"Was ist ein FishGoo spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Ein FishGoo spreadsheet ist eine nach Kategorien sortierte Sammlung von Produktlinks und Hinweisen für die Produktsuche. Die Kategorieübersicht auf dieser Seite führt zu HipoBuyFind."}},
+    {"@type":"Question","name":"Wo finde ich QC-Fotos zu einem Artikel?","acceptedAnswer":{"@type":"Answer","text":"Schau in der jeweiligen Produktansicht nach verfügbaren QC-Fotos. Falls dein Einkaufsdienst Lagerfotos anbietet, prüfe dort die Aufnahmen der bestellten Variante. Herstellerbilder zeigen das Modell als Referenz."}},
+    {"@type":"Question","name":"Wie vergleiche ich Größen bei Sneakern und Kleidung?","acceptedAnswer":{"@type":"Answer","text":"Vergleiche bei Sneakern deine Fußlänge in Zentimetern mit der Größentabelle des Angebots. Miss bei Kleidung ein passendes Stück flach aus und gleiche die Maße mit der gewünschten Variante ab."}},
+    {"@type":"Question","name":"Was kostet der Versand nach Deutschland?","acceptedAnswer":{"@type":"Answer","text":"Der Preis hängt von Versandlinie, Zieladresse und abrechenbarem Paketgewicht ab. Prüfe das Angebot für dein gepacktes Paket und berücksichtige mögliche Einfuhrabgaben und Zustellgebühren."}},
+    {"@type":"Question","name":"Wie prüfe ich einen Weidian- oder Taobao-Produktlink?","acceptedAnswer":{"@type":"Answer","text":"Öffne das Angebot und gleiche Modell, Verkäufer, Farbe, Größe und Verfügbarkeit ab. Wenn der Eintrag fehlt oder sich geändert hat, suche über die passende Kategorie nach einem aktuellen Angebot."}}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/lejbt/">
+</head>
+<body>
+<header>
+  <div class="bar"><div class="wrap"><a href="https://www.hipobuyfind.com">HipoBuyFind</a></div></div>
+  <div class="wrap hero">
+    <div>
+      <h1>FishGoo spreadsheet</h1>
+      <p>Eine deutschsprachige Orientierung für Sneaker, Streetwear und Accessoires. Wähle eine Kategorie bei HipoBuyFind und prüfe anschließend Produktlink, Größe und verfügbare QC-Fotos.</p>
+      <a class="cta" href="https://www.hipobuyfind.com">HipoBuyFind öffnen</a>
+    </div>
+    <figure>
+      <img src="https://static.nike.com/a/images/c_limit%2Cw_592%2Cf_auto/t_product_v1/997a3770-f8ae-4512-92cf-5c63590a7ea7/air-force-1-07-shoes-cjShTB.png" width="592" height="444" alt="Weißer Nike Air Force 1 ’07 mit weißem Swoosh" fetchpriority="high">
+      <figcaption>Nike Air Force 1 ’07 · Stilreferenz</figcaption>
+    </figure>
+  </div>
+</header>
+<main class="wrap">
+  <section aria-labelledby="kategorien">
+    <h2 id="kategorien">Produktkategorien</h2>
+    <nav aria-label="Kategorien bei HipoBuyFind">
+      <ul class="grid categories">
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Schuhe <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies &amp; Pullover <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jacken <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Hosen &amp; Shorts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Kopfbedeckungen <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html">Sets <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Unterwäsche <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Trikots <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </section>
+  <section aria-labelledby="stil">
+    <h2 id="stil">Worauf es bei Produktfotos ankommt</h2>
+    <div class="grid gallery">
+      <figure>
+        <img src="https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-monogram-denim-jacket--FVJA29EFY610_PM2_Front%20view.png?hei=480&amp;wid=480" width="480" height="360" loading="lazy" decoding="async" alt="Blaue Louis-Vuitton-Jeansjacke mit Monogramm und Brusttaschen">
+        <figcaption>Jeansjacke von Louis Vuitton · Kragen und Taschen vergleichen</figcaption>
+      </figure>
+      <figure>
+        <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="480" loading="lazy" decoding="async" alt="Gucci-Baseballkappe aus Canvas mit GG-Muster">
+        <figcaption>Gucci-Kappe · Schirm und Verschluss prüfen</figcaption>
+      </figure>
+      <figure>
+        <img src="https://assets.christiandior.com/is/image/diorprod/E0078MIDRSD301_SBG_E01-1?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;hei=520&amp;wid=480" width="480" height="360" loading="lazy" decoding="async" alt="Dior-Tribales-Ohrringe mit weißen Kunstharzperlen und goldfarbenen Details">
+        <figcaption>Dior Tribales · Oberfläche und Steckverschluss ansehen</figcaption>
+      </figure>
+    </div>
+    <p class="note">Die Markenbilder dienen als Stilreferenzen. Die Verfügbarkeit prüfst du im jeweiligen Angebot.</p>
+  </section>
+  <section aria-labelledby="ratgeber">
+    <h2 id="ratgeber">Einkaufsratgeber</h2>
+    <div class="grid articles">
+      <article>
+        <h3>Produktlinks und Größen vergleichen</h3>
+        <p>Wer nach FishGoo Finds sucht, beginnt am besten mit einer konkreten Kategorie. Bei einem Weidian- oder Taobao-Produktlink prüfst du Verkäufer, Modellbezeichnung, Farbvariante und Größenverfügbarkeit direkt im Angebot.</p>
+        <p>Für Sneaker misst du die Fußlänge in Zentimetern und prüfst die EU-Größentabelle. Bei Hoodies und Jacken helfen Brustweite, Ärmellänge und Rückenlänge. Bei Hosen und Shorts vergleichst du Bundweite und Innenbeinlänge. Bei Sets prüfst du beide Teile einzeln.</p>
+      </article>
+      <article>
+        <h3>QC-Fotos vor dem Versand prüfen</h3>
+        <p>QC steht für Qualitätskontrolle. Wenn Lagerfotos verfügbar sind, prüfe zuerst, ob sie dieselbe Größe und Farbe zeigen wie deine Bestellung. Für Sneaker sind Sohlenprofil, Zehenpartie und Fersenansicht hilfreich. Bei T-Shirts und Trikots siehst du dir Druck, Kragen und Nähte an.</p>
+        <p>Bei Caps lohnt der Blick auf die Form des Schirms und die Verstellung. Bei Schmuck helfen Nahaufnahmen von Oberfläche und Verschluss. Ein Foto kann sichtbare Details zeigen. Angaben zur Echtheit prüfst du anhand nachvollziehbarer Herkunftsnachweise.</p>
+      </article>
+      <article>
+        <h3>Versand nach Deutschland kalkulieren</h3>
+        <p>Vergleiche für den FishGoo-Versand die Optionen für deine Zieladresse. Halte Warenwert, mögliche Servicekosten, internationalen Versand und mögliche Einfuhrabgaben getrennt fest. Bei Preisen in Yuan rechnest du mit dem zum Zahlungszeitpunkt angezeigten Wechselkurs in Euro um.</p>
+        <p>Ein Schuhkarton oder eine dicke Winterjacke kann das Paketvolumen erhöhen. Prüfe das tatsächliche Gewicht, das Volumengewicht und die Bedingungen der Versandlinie. Wenn du mehrere Artikel bündeln möchtest, vergleiche die Angebote erst mit den gepackten Maßen.</p>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="faq">
+    <h2 id="faq">Häufige Fragen</h2>
+    <details open>
+      <summary>Was ist ein FishGoo spreadsheet?</summary>
+      <p>Ein FishGoo spreadsheet ist eine nach Kategorien sortierte Sammlung von Produktlinks und Hinweisen für die Produktsuche. Die Kategorieübersicht auf dieser Seite führt zu HipoBuyFind.</p>
+    </details>
+    <details>
+      <summary>Wo finde ich QC-Fotos zu einem Artikel?</summary>
+      <p>Schau in der jeweiligen Produktansicht nach verfügbaren QC-Fotos. Falls dein Einkaufsdienst Lagerfotos anbietet, prüfe dort die Aufnahmen der bestellten Variante. Herstellerbilder zeigen das Modell als Referenz.</p>
+    </details>
+    <details>
+      <summary>Wie vergleiche ich Größen bei Sneakern und Kleidung?</summary>
+      <p>Vergleiche bei Sneakern deine Fußlänge in Zentimetern mit der Größentabelle des Angebots. Miss bei Kleidung ein passendes Stück flach aus und gleiche die Maße mit der gewünschten Variante ab.</p>
+    </details>
+    <details>
+      <summary>Was kostet der Versand nach Deutschland?</summary>
+      <p>Der Preis hängt von Versandlinie, Zieladresse und abrechenbarem Paketgewicht ab. Prüfe das Angebot für dein gepacktes Paket und berücksichtige mögliche Einfuhrabgaben und Zustellgebühren.</p>
+    </details>
+    <details>
+      <summary>Wie prüfe ich einen Weidian- oder Taobao-Produktlink?</summary>
+      <p>Öffne das Angebot und gleiche Modell, Verkäufer, Farbe, Größe und Verfügbarkeit ab. Wenn der Eintrag fehlt oder sich geändert hat, suche über die passende Kategorie nach einem aktuellen Angebot.</p>
+    </details>
+  </section>
+</main>
+<footer><div class="wrap">Unabhängiger Einkaufsratgeber · <a href="https://www.hipobuyfind.com">HipoBuyFind</a></div></footer>
+<!--
+Empfohlene Nebenkeywords: FishGoo Finds | FishGoo Produktlinks | FishGoo QC-Fotos | FishGoo Versand nach Deutschland
+Empfohlene Longtail-Suchbegriffe:
+FishGoo spreadsheet für Sneaker | FishGoo spreadsheet für Hoodies | FishGoo spreadsheet für T-Shirts |
+FishGoo spreadsheet für Jacken | FishGoo spreadsheet für Hosen und Shorts | FishGoo spreadsheet für Kappen |
+FishGoo spreadsheet für Sets | FishGoo spreadsheet für Trikots | FishGoo spreadsheet für Schmuck |
+FishGoo spreadsheet für Unterwäsche | FishGoo spreadsheet auf Deutsch erklärt |
+Weidian-Produktlink vor dem Kauf prüfen | Taobao-Angebot und Farbvariante abgleichen |
+QC-Fotos für Sneaker beurteilen | Fersenansicht auf QC-Fotos prüfen | Trikotdruck auf Lagerfotos prüfen |
+Kappenverschluss auf Produktfotos prüfen | Ohrringverschluss im Detail ansehen |
+EU-Schuhgröße anhand der Fußlänge vergleichen | Hoodie-Brustweite richtig messen |
+Innenbeinlänge bei Hosen vergleichen | Versandkosten nach Deutschland berechnen |
+Volumengewicht beim Paketversand vergleichen | Warenwert von Yuan in Euro umrechnen |
+Mehrere Artikel in einem Paket bündeln | Einfuhrabgaben beim Einkauf berücksichtigen
+Recherchegrundlage: Zehn Treffer der Websuche für „FishGoo spreadsheet“.
+Die Google-Ergebnisseite war nicht direkt abrufbar; Google-Platzierungen wurden nicht bestätigt.
+Geprüfte Titel und Suchauszüge: fishgoofind.net, fishgoopicklist.com, fishgoo.app, usfansyupoo.com,
+fishgoospreadsheet.net, fishgoo.org, fishgoo.net, findhaul.com, htv4.yinaojiyi.com und fishgootable.com.
+-->
+</body>
+</html>
